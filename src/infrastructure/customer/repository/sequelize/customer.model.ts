@@ -10,6 +10,7 @@ import {
     timestamps: false,
   })
   export default class CustomerModel extends Model {
+
     @PrimaryKey
     @Column
     declare id: string;
